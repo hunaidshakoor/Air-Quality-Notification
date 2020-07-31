@@ -56,7 +56,8 @@ class SendText:
 
     def __init__(self, message):
         self.SID = 'AC040fbdffa5e8234c789f581a77954971'
-        self.Token = 'abff6f970f02e63981484bfd6084bbb0'
+        #Add auth Token
+        self.Token = ''
 
         self.message = message
 
